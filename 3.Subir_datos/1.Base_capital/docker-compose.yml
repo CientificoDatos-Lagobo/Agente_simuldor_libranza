@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  gitpush:
+    build: .
+    container_name: Subir_Data_final
+    volumes:
+      - ../../:/app  # - ./ruta/local/en/el/otro/pc:/app (Cambiar para correr en otro)
+    tty: true
